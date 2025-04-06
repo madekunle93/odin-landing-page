@@ -1,3 +1,31 @@
+body {
+    margin: 0px;
+}
+
+h1 {
+    margin: 0px;
+}
+
+h2 {
+    margin: 5px 0px;
+}
+
+h3 {
+    margin: 0px;
+    font-style: italic;
+    font-size: 30px;
+}
+
+h4 {
+    margin: 5px 0px;
+    font-size: 20px;
+    }
+
+p {
+    margin: 4px 0px;
+}
+
+
 * {
     font-family: "Roboto", Arial, Helvetica, sans-serif; 
   }
@@ -5,33 +33,78 @@
 .hero {
     background-color: #1f2937;
     color: #f9faf8;
-    padding: 2px 7px 30px;
+    padding: 2px 7px 100px;
 }
 
-.header-logo {
+.hero-banner {
+    padding: 3px;
+}
+
+.hero-banner-logo {
     font-size: 24px;
-}
-
-.header-banner-links {
     }
 
-.hero-banner-main {
+.hero-main {
+        padding: 3px;
+    }
+
+.hero-primary {
     font-size: 38px;
     font-weight: 800;
 }
 
-.hero-banner-secondary {
+.hero-secondary {
     color: #e5e7eb;
     font-size: 18px;
 }
 
-.hero-banner-cta{
+.hero-cta {
     background-color: #3882f6;
     color: #e5e7eb;
     font-size: 18px;
     padding: 2px 7px;
-    border: none;
+    margin: 2px;
+    border: 2px;
     border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+}
+
+.context-section {
+    margin: 50px;
+    border: 50px;
+    padding: 50px;
+}
+
+.context-section-title {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.quote-box {
+    background-color: #e5e7eb;
+    border: 50px;
+    padding: 30px 100px 60px;
+}
+
+.call-to-action-box {
+    background-color: #3882f6;
+    padding: 2px 7px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 65px 15px 40px;
+}
+
+.call-to-action {
+    color: #e5e7eb;
+    padding: 2px 7px;
+    margin: 30px 10px 30px 50px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 30px 100px 60px;
 }
