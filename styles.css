@@ -1,0 +1,37 @@
+* {
+    font-family: "Roboto", Arial, Helvetica, sans-serif; 
+  }
+
+.hero {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 2px 7px 30px;
+}
+
+.header-logo {
+    font-size: 24px;
+}
+
+.header-banner-links {
+    }
+
+.hero-banner-main {
+    font-size: 38px;
+    font-weight: 800;
+}
+
+.hero-banner-secondary {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.hero-banner-cta{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 2px 7px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
