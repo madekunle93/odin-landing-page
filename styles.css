@@ -88,6 +88,7 @@ p {
     border: 5px;
     padding: 110px;
     background-color: gray;
+    text-align: center;
 }
 
 .hero-primary {
@@ -164,19 +165,32 @@ p {
     padding-right: 350px;
 }
 
-.call-to-action-box {
+.cta-box {
     background-color: #3882f6;
-    padding: 2px 7px;
+    color: #e5e7eb;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.cta-box-text {
+    padding: 2px;
+}
+
+.cta-box-cta {
+    color: #e5e7eb;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 2px;
+    border: solid #f9faf8;
     border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin: 65px 15px 40px;
-}
-
-.call-to-action {
-    color: #e5e7eb;
-    padding: 2px 7px;
-    margin: 30px 10px 30px 50px;
 }
 
 .footer {
