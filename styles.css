@@ -35,6 +35,9 @@ p {
     background-color: #1f2937;
     color: #f9faf8;
     padding: 2px 7px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
 }
 
 .hero-banner {
@@ -42,6 +45,14 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 100px;
+    border-bottom-width: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    border-right-width: 0px;
+    padding-right: 20px;
 }
 
 .hero-banner-logo {
@@ -82,11 +93,14 @@ p {
 .hero-primary {
     font-size: 38px;
     font-weight: 800;
+    margin-right: 40px;
 }
 
 .hero-secondary {
     color: #e5e7eb;
     font-size: 18px;
+    margin-right: 40px;
+    padding-right: 2px;
 }
 
 .hero-cta {
