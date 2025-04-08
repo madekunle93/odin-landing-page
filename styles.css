@@ -154,7 +154,14 @@ p {
 .quote-box {
     background-color: #e5e7eb;
     border: 50px;
-    padding: 30px 100px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-bottom: 0px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-left: 350px;
+    padding-right: 350px;
 }
 
 .call-to-action-box {
